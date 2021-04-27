@@ -1,0 +1,16 @@
+body {
+ font-family:"open sans",sans-serif !important;
+}
+*:focus {
+    outline:none !important;
+}
+button{
+    outline: none;
+}
+
+.no-outline:focus {
+    outline: none !important;
+}   
+.black-background{
+    background:'red'
+}
