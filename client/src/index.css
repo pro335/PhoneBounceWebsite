@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: "open sans", sans-serif;
+    src: local('open sans'), url(./assets/fonts/opensans/Regular/OpenSans-Regular.ttf) format('truetype');
+    src: local('open sans bold'), url(./assets/fonts/opensans/Bold/OpenSans-Bold.ttf) format('truetype');
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

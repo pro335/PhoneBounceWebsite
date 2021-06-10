@@ -1,0 +1,191 @@
+*{
+    font-family:"open sans",sans-serif !important
+}
+.MuiTooltip-popperInteractive {
+    z-index: 99999 !important;
+}
+
+.flag-dropdown.open {
+    width: 100% !important;
+    color: #808080 !important;
+}
+.flag-dropdown.open li {
+    text-align: left;
+}
+.intl-tel-input.allow-dropdown .selected-flag{
+    width: 56px !important;
+    outline:none;
+}
+.country-list{
+    min-width:100%;
+}
+.country-list li{
+    color: #333
+}
+input[type=tel]{
+width:'100%';
+}
+.Toastify__toast--success{
+    background: #f50057 !important;
+}
+.Toastify__close-button--info{
+    position: absolute !important;
+    right: 5px !important;
+    top: -3px !important;
+}
+.Toastify__toast--info{
+    padding: 0 !important;
+    min-height: unset !important;
+}
+#__p_wrapper .fullscreen{
+    width:100%;
+    height:100%
+}
+#tooltip_ *{
+    font-size: 13px !important;
+}
+.makeStyles-verticleView-117::-webkit-scrollbar-track {
+    background: #d1d1d1;
+    width: 5px;
+}
+.makeStyles-verticleView-117::-webkit-scrollbar-thumb {
+    background-color: #ee5586;
+    border-radius: none;
+    width: 5px;
+    
+    border: 1px solid transparent;
+}
+.makeStyles-horizontalView-116::-webkit-scrollbar-track {
+    background: #d1d1d1;
+    width: 5px;
+}
+.makeStyles-horizontalView-116::-webkit-scrollbar-thumb {
+    background-color: #ee5586;
+    border-radius: none;
+    width: 5px;
+    border: 1px solid transparent;
+}
+
+
+/* Custom Medai Queries for Room */
+@media(min-height:800px)  and (max-width: 1000px){
+    
+    #verticalScrollMedia{
+        height: calc(60vh - 90px);
+        min-height: calc(60vh - 90px);
+          /* width: 100%;
+          height:100%;
+          min-height:100%; */
+    }
+    
+    #verticalScrollViewForLocalMedia{
+        height: calc(60vh - 90px);
+        min-height: calc(60vh - 90px);
+          /* width: 100%;
+          height:100%;
+          min-height:100%; */
+      }
+      #roomWrapperMedia{
+        height: calc(60vh - 90px);
+        min-height: calc(60vh - 60px);
+          /* width: 100%;
+          height:100%;
+          min-height:100%; */
+      }
+}
+@media(min-height:900px)  and (min-width: 1600px){
+    #verticalScrollMedia{
+        height: calc(100vh - 90px);
+        min-height: calc(100vh - 90px);
+          /* width: 100%;
+          height:100%;
+          min-height:100%; */
+    }
+    #verticalScrollViewForLocalMedia{
+        height: calc(100vh - 90px);
+        min-height: calc(100vh - 90px);
+          /* width: 100%;
+          height:100%;
+          min-height:100%; */
+      }
+      #roomWrapperMedia{
+        height: calc(100vh - 90px);
+        min-height: calc(100vh - 90px);
+          /* width: 100%;
+          height:100%;
+          min-height:100%; */
+      }
+}
+
+@media(min-height:800px)  and (min-width: 1300px){
+    #verticalScrollMedia{
+        height: calc(75vh - 90px);
+        min-height: calc(75vh - 90px);
+          /* width: 100%;
+          height:100%;
+          min-height:100%; */
+    }
+    #verticalScrollViewForLocalMedia{
+        height: calc(75vh - 90px);
+        min-height: calc(75vh - 90px);
+          /* width: 100%;
+          height:100%;
+          min-height:100%; */
+      }
+      #roomWrapperMedia{
+        height: calc(75vh - 90px);
+        min-height: calc(75vh - 90px);
+          /* width: 100%;
+          height:100%;
+          min-height:100%; */
+      }
+}
+
+@media(max-height:800px)  and (max-width: 900px){
+    #verticalScrollMedia{
+        height: calc(75vh - 90px);
+        min-height: calc(75vh - 90px);
+          /* width: 100%;
+          height:100%;
+          min-height:100%; */
+    }
+    #verticalScrollViewForLocalMedia{
+        height: calc(75vh - 90px);
+        min-height: calc(75vh - 90px);
+          /* width: 100%;
+          height:100%;
+          min-height:100%; */
+      }
+      #roomWrapperMedia{
+        height: calc(75vh - 90px);
+        min-height: calc(75vh - 90px);
+          /* width: 100%;
+          height:100%;
+          min-height:100%; */
+      }
+}
+
+@media(min-width: 1300px){
+    #horizontalView{
+        width: 60% !important;
+        margin: 0 auto !important;
+    }
+}
+
+@media(min-height: 1600px){
+    #horizontalView{
+        width: 90% !important;
+        margin: 0 auto !important;
+    }
+}
+
+#remoteParticipantsWrapper{
+    width: 350px;
+    max-width: 350px;
+    min-width: 350px;
+    max-height: 300px;
+    min-height: 300px;
+}
+
+
+

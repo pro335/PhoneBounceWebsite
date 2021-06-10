@@ -1,0 +1,107 @@
+.main-wrapper {
+    background:linear-gradient(240deg, #16222a 0%, #3a6173 100%);
+    position:relative;
+    padding-top: 150px;
+    color:white
+
+}
+.text-white {
+    color:white
+}
+.bg-main {
+    background-color:#EFEFEF
+}
+.bg-features {
+    background-color: #F6F6F6;
+}
+.bg-pricing {
+    background-color:#15212A
+}
+.service-help {
+    background-color: #F6F6F6;
+}
+.service-help p {
+    line-height: 32px;
+    color: #808080;
+}
+.box-shadow{
+    box-shadow: 0 5px 15px 0 rgba(110, 110, 110, .1);
+    border-radius: 15px;
+    position: relative;
+    padding: 80px 80px;
+}
+.bg-white {
+    background:white;
+}
+.icon-primary {
+    color:#EE5586
+}
+.overlap {
+    margin-top: -80px !important;
+    z-index: 10;
+}
+.casestudy-main  {
+    background-color: #ee5586 !important;
+    border-radius:15px;
+    position: relative;
+}
+.casestudy-main img {
+    opacity: 0.5;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+
+}
+.casestudy-main .author {
+    font-size: 28px;
+    font-family: "Open Sans Semibold";
+    margin-bottom: 15px;
+    text-align: left;
+    text-transform: capitalize;
+    color: #fff;
+}
+.content-info {
+    font-size: 16px;
+    font-family: "Open Sans";
+    margin-bottom: 20px;
+    margin-top: 9px;
+    line-height: 30px;
+    text-align: left;
+    color: #fff;
+}
+.casestudy .content-info p {
+    font-size: 16px;
+}
+.casestudy-main .MuiPaper-elevation1, .casestudy-main.MuiPaper-root {
+    background-color:transparent !important;
+    box-shadow: none !important;
+}
+.main-wrapper .subheading {
+    font-family: "Open Sans";
+    color: #fff;
+    position: relative;
+    line-height: 32px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.main-wrapper ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+
+}
+.main-wrapper ul li {
+    margin-bottom:15px
+}
+.main-wrapper span {
+    margin-left: 10px;
+}
+.heading {
+    font-family: "Open Sans";
+    font-size: 52px;
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 5px;
+}

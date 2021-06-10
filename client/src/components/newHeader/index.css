@@ -1,0 +1,59 @@
+.iconbtn {
+    display:inline-block
+}
+.numberDropdown {
+    width: 800px;
+
+}
+.featuresDropdown {
+    width: '230px';
+    padding: "20px 10px !important";
+}
+.featuresDropdown li {
+    padding:'5px 0 !important';
+}
+.platformDropdown {
+        width: '320px';
+        padding: "20px 20px !important";
+}
+.platformDropdown li {
+    padding:'5px 0 !important';
+}
+.numberDropdown:hover {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+.numberLink:hover .numberDropdown {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+.numberLink:hover .numberVector {
+    height: 40px;
+}
+.featuresLink:hover .featuresDropdown {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+.bg-transparent:hover {
+    background-color:transparent;
+}
+.text-decoration-none {
+    text-decoration: none;
+}
+.text-decoration-none:hover {
+    text-decoration: none;
+}
+.featuresLink:hover .featuresVector {
+    height: 40px;
+}
+.platformLink:hover .platformDropdown {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+.platformLink:hover .platformVector {
+    height: 40px;
+}
+.activeLink {
+    font-weight: bold !important;
+    color: white;
+}
